@@ -38,22 +38,26 @@ Tuples:
 	-> We can add different tuples for elements that we want to include in the password 
 
 -> re module <- regular expressions 
-	-> regex <- Regular expressions 
+	-> regex <- Regular expressions: 
 		-> Patterns to match specific combinations of characters inside strings 
 		-> Alternatives to if / else conditions for finding patterns inside of strings 
-	-> re.compile() <- This is a function from the module which compiles the string as it's passed as the argument into a regular expression object, so it can be used by other re methods 
+
+	-> re.compile() <- This is a function from the module which compiles the string as it's passed as the argument into a regular 
+		expression object, so it can be used by other re methods 
 		-> To compile a regular expression pattern into a regex object 
 		-> pattern = re.compile('i') <- In the code we are writing  
 		-> 'i' is the regular expression pattern 
 		-> So once it's been converted, we can use it for pattern matching in other operations
-	-> The .search() function 
+
+	-> The .search() function: 
 		-> Analysing the string passes as the argument 
 		-> Looking for the first place where the regex pattern matches the string 
-	-> pattern = re.compile('l+') <- Another use of this 
+
+	-> pattern = re.compile('l+') <- Another use of this: 
 		-> Regex matches the first l inside the string in this case
 		-> How many times the character should be repeated 
 
--> findall()
+-> findall():
 	-> This is a function from the re() module 
 	-> This returns a list with all the occurrences of the matched patted 
 	-> ma[dnt] <- To match one character in the square brackets 
@@ -74,15 +78,17 @@ Tuples:
 		-> pattern = '\.' <- Otherwise 
 	-> \d <- Shorthand for [0-9]
 		-> You can replace [0-9] with it in the code 
-	-> We can combine multiple ranges in character classes
+
+	-> We can combine multiple ranges in character classes:
 		-> [a-d3-6] <- This is an example of this syntax 
 		-> This is the combination of the ranges [a-d] and [3-6]
+
 	-> [0-9] is equivalent to \d and [^0-9] is equivalent to \D
 	-> Then \w can be used to match alphanumeric characters, and \W can be used to match non-alphanumeric characters 
 		-> This can be used to replace [^a-zA-Z0-9]
 		-> This can't be used to match all of our special characters
 
--> findall() <- The final function 
+-> findall() <- The final function: 
 	-> You can pass pattern and password as the arguments to this
 	-> In this code it's re.findall()
 
