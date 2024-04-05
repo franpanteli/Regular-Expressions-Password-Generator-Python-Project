@@ -93,9 +93,6 @@ Tuples:
 		-> Otherwise, it returns False 
 -> 
 
-In question 61 of the Scientific Computing with Python certification, Password Generator, I am entering in         if all([]):
-            break
-But this is not working. I am unsure as to why this is the case and think there might be something wrong with the problem itself. 
 
 		
 
@@ -116,22 +113,6 @@ But this is not working. I am unsure as to why this is the case and think there 
 
 
 
--> Dopler shift?
--> Bristol outside of flat conversation 
--> About rent "... where will you go?"
--> Being a lesbian isn't a mental disorder 
--> One family member gains more 
--> How they were just made into narcissists  
--> "... you're lucky we invited you" WAC
--> I'm not sitting next to her at dinner 
--> Essentialism, essentialist 
-
-I had a failure. It sent me into the panic zone. I started half grinding my nails on the side of my machine to get be back into the comfort zone. It's a good thing that I had a failiure, it's just that I'm using the wrong approach.
-
--> Samjid's face "... and then you should have your ticket" he sort of just ushered me out of his office and gave me the friendly customer service smile, it was the decline 
--> and then being hounded for 9 grand out of pocket by credit control - slow descent into Selby 
--> there was someone just controlling my life like a dark cloud
--> PCOS
 
 
 
