@@ -91,3 +91,13 @@ Tuples:
 -> The all() method:
 	-> all() <- This is a built-in Python function which returns True if all the elements inside a given utterable evaluate to True 
 		-> Otherwise, it returns False 
+
+-> Generator expressions:
+	-> These expressions can save memory 
+	-> They follow the syntax of list comprehensions, but they use parenthesis, rather than square brackets
+
+-> Parameters are the arguments to functions:
+	-> And these have values assigned to them, or default values 
+	-> When you call a function, the order of the arguments doesn't matter - as long as they are keyword arguments 
+	-> There are default arguments and then there are keyword arguments 
+	-> If you don't tell it the value of one of those arguments when you call the function, then its default value will be used 
